@@ -12,10 +12,10 @@ function subtract(a,b) {
 }
 console.log(subtract(2,3));
 
-function multiplies(a,b) {
+function multiply(a,b) {
  return a*b;
 }
-console.log(multiplies(2,3));
+console.log(multiply(2,3));
 
 function divide(a,b) {
  return a/b;
