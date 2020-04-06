@@ -27,7 +27,7 @@ console.log(divide(9,3));
 
 function preserveDecimal(n) {
 return parseFloat(n);
-   
+
  }
 
  console.log(preserveDecimal(80.1235465));
