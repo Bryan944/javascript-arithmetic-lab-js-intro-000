@@ -23,6 +23,15 @@ function divide(a,b) {
 console.log(divide(9,3));
 
 
+function increment(n) {
+  return n+=1;
+} increment(5);
+
+function decrement(n) {
+  return n-=1;
+} decrement(5);
+
+
 
 
 function preserveDecimal(n) {
