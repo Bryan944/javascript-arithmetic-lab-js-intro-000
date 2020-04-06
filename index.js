@@ -32,6 +32,29 @@ function decrement(n) {
 } decrement(5);
 
 
+function makeInt(n) {
+  if(n !== 0)
+        return parseInt(n);
+        else{
+          return NaN;
+        }
+      }
+
+      function makeInt(n) {
+        if(n >= 0 ){
+          return 0;
+        }
+      }
+
+
+
+
+
+
+      function makeInt(n) {
+        return parseInt(n, 10);
+      }
+      makeInt("573");
 
 
 function preserveDecimal(n) {
